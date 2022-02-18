@@ -36,5 +36,7 @@ As of writing this, the version of Argos on the GNOME Shell Extensions website s
 
 If you're a MacOS + BitBar user and the extension works properly, do not hesitate to tell me with an issue or a pull request. I'd be more than welcome to support more devices.
 
+You do not need SoundCoreLifeAPI. This extension comes bundled with its own version of SoundCoreLifeAPI. The 2 reasons are that newer versions of this API are not compatible with Linux, and that I had to perform a few modifications to the API in order to prevent issues with loading some Equalizer presets.
+
 ## Bug Reports / Contributions / Suggestions
 You can report bugs or suggest features by making an issue, or you can contribute to this extension directly by forking it and then sending a pull request. Any help will be very much appreciated. Thank you !
