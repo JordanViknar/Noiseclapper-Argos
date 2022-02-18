@@ -6,15 +6,15 @@ I am **not** partnered with Soundcore or Anker in any way. Although I am using h
 
 ## What is Noiseclapper ?
 
-Noiseclapper is a GNOME Shell extension that allows you to control some settings in your Soundcore Life headphones. Normally, the official way of doing this would be to use the [official Android application](https://play.google.com/store/apps/details?id=com.oceanwing.soundcore) through your smartphone, and then set the Active Noise Cancelling Mode and the Equalizer settings from there. Problem : the application is **exclusive to Android**.
+Noiseclapper is a GNOME Shell extension that allows you to control some settings in your Soundcore Life headphones. Normally, the official way of doing this would be to use the [official Android application](https://play.google.com/store/apps/details?id=com.oceanwing.soundcore) through your smartphone, and then set the Active Noise Cancellation mode and the Equalizer settings from there. Problem : the application is **exclusive to Android**.
 
 So what do you do when you're using a computer ?
 
-Well, officially, you're supposed to use the NC button or "pet" the right side of the headphones to change those settings. Again, there is a problem : you cannot choose the Active Noise Cancelling Mode you want to use, and the Equalizer settings are nowhere to be seen.
+Well, officially, you're supposed to use the NC button or "pet" the right side of the headphones to change those settings. Again, there is a problem : you cannot choose the Active Noise Cancellation mode you want to use, and the Equalizer settings are nowhere to be seen.
 
 Alternatively, you could use the [SoundcoreDesktop application](https://github.com/KillerBOSS2019/SoundcoreLifeAPI) to modify those settings. There's still flaws : the current version of its API is not compatible with Linux, and every version of the SoundcoreDesktop application is incompatible with Wayland because of Tkinter. Also, the Equalizer settings are **still not available**.
 
-This extension is meant to be a solution to all these issues. On top of having all the pros of being a GNOME Shell extension (no interface to clutter your active windows, easy to access), it also provides Linux support for the control of Soundcore Life headphones, on both Wayland and X11, including the current Active Noise Cancelling mode and the current Equalizer preset used.
+This extension is meant to be a solution to all these issues. On top of having all the pros of being a GNOME Shell extension (no interface to clutter your active windows, easy to access), it also provides Linux support for the control of Soundcore Life headphones, on both Wayland and X11, including the current Active Noise Cancellation mode and the current Equalizer preset used.
 
 ## Supported Devices
 | Soundcore Life Devices | Support |
@@ -25,7 +25,7 @@ This extension is meant to be a solution to all these issues. On top of having a
 | Life Q20 | ? |
 | Life Q10 | X |
 
-If your device works despite not being marked as supported, don't hesitate to create an issue or a pull request. *(I suppose the Q10 is not supported because it seems to lacks Active Noise Cancelling.)*
+If your device works despite not being marked as supported, don't hesitate to create an issue or a pull request. *(I suppose the Q10 is not supported because it seems to lack Active Noise Cancelling.)*
 
 ## Requirements
 - GNOME Shell + Argos (or BitBar ?)
