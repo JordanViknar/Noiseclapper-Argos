@@ -26,13 +26,13 @@ echo "---"
 echo "Noiseclapper :mute::clap:"
 echo "---"
 
-echo "Noise Reduction Mode"
+echo "Active Noise Cancellation Mode"
 echo "--:train: Transport | 			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCTransport\" '$MAC	| terminal="$DEBUG
 echo "--:house: Indoor |			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCIndoor\" '$MAC		| terminal="$DEBUG
 echo "--:deciduous_tree: Outdoor |		bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCOutdoor\" '$MAC		| terminal="$DEBUG
 echo "--:mute: Default |			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANC\" '$MAC 		| terminal="$DEBUG
-echo "--:no_entry_sign: Normal / No ANR |	bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"Normal\" '$MAC 		| terminal="$DEBUG
-echo "--🪟 Transparency / No NR |		bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"Transparency\" '$MAC	| terminal="$DEBUG
+echo "--:no_entry_sign: Normal / No ANC |	bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"Normal\" '$MAC 		| terminal="$DEBUG
+echo "--🪟 Transparency / No NC |		bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"Transparency\" '$MAC	| terminal="$DEBUG
 echo "---"
 
 echo "Equalizer Preset"
