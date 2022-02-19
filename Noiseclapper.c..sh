@@ -26,7 +26,7 @@ echo "---"
 echo "Noiseclapper :mute::clap:"
 echo "---"
 
-echo "Active Noise Cancellation Mode"
+echo "Noise Cancellation Mode"
 echo "--:train: Transport | 			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCTransport\" '$MAC	| terminal="$DEBUG
 echo "--:house: Indoor |			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCIndoor\" '$MAC		| terminal="$DEBUG
 echo "--:deciduous_tree: Outdoor |		bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCOutdoor\" '$MAC		| terminal="$DEBUG
