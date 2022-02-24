@@ -31,12 +31,17 @@ If your device works despite not being marked as supported, don't hesitate to cr
 - GNOME Shell + Argos (or BitBar ?)
 - Python 3
 - Bluetooth support on the computer
+- *(The Soundcore application must be inactive on your phone, else it will conflict for the control of your headphones with this extension.)*
 
 As of writing this, the version of Argos on the GNOME Shell Extensions website seems to be severely outdated. I recommend you install it from its [GitHub repository](https://github.com/p-e-w/argos) instead.
 
 If you're a MacOS + BitBar user and the extension works properly, do not hesitate to tell me with an issue or a pull request. I'd be more than welcome to support more devices.
 
 You do not need SoundCoreLifeAPI. This extension comes bundled with its own version of SoundCoreLifeAPI. The 2 reasons are that newer versions of this API are not compatible with Linux, and that I had to perform a few modifications to the API in order to prevent issues with loading some Equalizer presets.
+
+## Known Bugs
+- The extension can be used while your headphones aren't connected to your computer (and turned on), but it will often bring up "Host is down"/"Host is busy" errors. To prevent that from happening, you can connect your computer to your headphones at the same time as the other device you're using. Be careful to mute your computer, or to use another audio source.
+- Under the same conditions, if you do not encounter the "Host is down"/"Host is busy" error, you will hear the "Bluetooth Search" sound, almost always followed by the "Bluetooth Connected" sound. It can disrupt what you're listening to on your headphones, and it gets very annoying. The workaround is the exact same one as the previous bug.
 
 ## Bug Reports / Contributions / Suggestions
 You can report bugs or suggest features by making an issue, or you can contribute to this extension directly by forking it and then sending a pull request. Any help will be very much appreciated. Thank you !
