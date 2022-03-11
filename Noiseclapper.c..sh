@@ -26,6 +26,14 @@ echo "---"
 echo "Noiseclapper :mute::clap:"
 echo "---"
 
+if [$MAC = '']
+then	
+	echo "🛑 Error"
+	echo "--:warning: No MAC Address has been set..."
+	echo "--:exclamation: Configure it to enable Noiseclapper."
+	exit
+fi
+
 echo "Noise Cancellation Mode"
 echo "--:train: Transport | 			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCTransport\" '$MAC	| terminal="$DEBUG
 echo "--:house: Indoor |			bash=$PYTHON_TYPE' '$API_NOISE_REDUCTION' \"ANCIndoor\" '$MAC		| terminal="$DEBUG
