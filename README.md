@@ -2,7 +2,7 @@
 
 ## Disclaimer
 This is an **unofficial** GNOME Shell extension, designed for use with the Soundcore Life Q30 headphones (although it may work with other Soundcore headphones). 
-I am **not** partnered with Soundcore or Anker in any way. Although I am using his API, KillerBOSS2019 is **not** involved with the development of this extension.
+I am **not** partnered with Soundcore or Anker in any way. Although I am using his API, [KillerBOSS2019](https://github.com/KillerBOSS2019) is **not** involved with the development of this extension.
 
 ## What is Noiseclapper ?
 
