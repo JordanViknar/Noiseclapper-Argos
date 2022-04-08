@@ -35,6 +35,12 @@ This extension is meant to be a solution to all these issues. On top of having a
 If your device works despite not being marked as supported, don't hesitate to create an issue or a pull request. *(I suppose the Q10 is not supported because it seems to lack Active Noise Cancelling.)*
 
 ## Requirements
+
+---
+*Note : GNOME 42 will require [this pull request](https://github.com/p-e-w/argos/pull/134) of Argos instead.*
+
+---
+
 - GNOME Shell + Argos (or BitBar ?)
 - Python 3
 - Bluetooth support on the computer
