@@ -1,3 +1,10 @@
+
+### NOTE : This version of Noiseclapper is obsolete and will no longer be maintaned.
+
+### Please use the [native GNOME Shell version of Noiseclapper](https://github.com/JordanViknar/Noiseclapper) instead.
+
+---
+
 # :mute::clap: Noiseclapper (Argos)
 
 ---
